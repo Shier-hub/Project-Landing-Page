@@ -15,6 +15,7 @@
 
 .header-links > li {
     list-style-type: none;
+    font-size: 18px;
 }
 
 .h-logo {
@@ -40,3 +41,35 @@
     font-weight: 900;
     font-size: 48px;
 }
+
+.button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size:  18px;
+    font-weight: bold;
+}
+
+.image {
+    height: 100px;
+    width: 200px;
+    background-color: azure;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-basis:0;
+    flex-grow: 1;
+}
+.info-2 {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.info-1 {
+    display: flex;
+    justify-content: space-between
+    ;
+}
+
+
