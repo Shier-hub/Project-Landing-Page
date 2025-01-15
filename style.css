@@ -3,8 +3,9 @@
 .background-1 {
     background-color: #1F2937;
     color: white;
-    height: 300px;
+    /* height: 500px; */
     padding: 0 150px;
+    padding-bottom: 100px;
 }
 
 * {
@@ -42,6 +43,11 @@
     font-size: 48px;
 }
 
+.subtext {
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
 .button {
     background-color: #3882F6;
     border: 0;
@@ -53,23 +59,57 @@
 }
 
 .image {
-    height: 100px;
+    height: 300px;
     width: 200px;
-    background-color: azure;
+    background-color: rgb(178, 207, 207);
     color: black;
     display: flex;
     align-items: center;
     flex-basis:0;
     flex-grow: 1;
+    justify-content: center;
 }
+
 .info-2 {
     flex-basis: 0;
     flex-grow: 1;
 }
+
 .info-1 {
     display: flex;
-    justify-content: space-between
-    ;
+    justify-content: space-between;
+    gap: 50px;
 }
 
+.header-2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: 1F2937;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.text {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.container {
+    width: 200px;
+    text-align: center;
+}
 
