@@ -114,7 +114,7 @@
 
 .background-3 {
     background-color: #E5E7EB;
-    padding: 96px 0;
+    padding: 150px 0;
 }
 
 .quote {
@@ -161,5 +161,17 @@
     font-size: 18px;
     font-weight: bold;
     background-color: #3882F6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 40px 0;
+}
+
+.copy {
+    font-size: 18px;
 }
 
